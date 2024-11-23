@@ -1,19 +1,13 @@
-
-Apretar ctrl + shift + v para verlo como markdown !!! (solo vs code, igualmente se dejo un txt por si le es mas comodo)
-
 # Fundamentos de la Ciencia de Datos - Cursada 2024 - Práctico Especial
 
 ## Participantes 
 - **Puggioni Bruno - bruno.puggioni@gmail.com - 44838933**
 - **Saide Felipe - fsaide58@gmail.com - 44561355**
 
-## Detalles a tener en cuenta!
-- Los graficos pueden estar mal cargados si cargamos todas las celdas de una sola vez, por lo que para que se vea bien todo van a tener que recargarlos una segunda vez! (solo los graficos, lo demas por lo que hemos suele cargar de manera correcta)
-- Utilizamos la opción de Markdown que nos ofrece Jupyter para reunir todo el contenido en un único archivo, facilitando así la lectura y organización. Las secciones pueden plegarse y desplegarse a conveniencia, mejorando la navegación y proporcionando una experiencia más fluida. De no ser conveniente este tipo de formato les pedimos disculpas adelantadas!
-
+# Informe sobre el analisis y estudio realizado
+[![Static Badge](https://img.shields.io/badge/Informe-blue?logo=google-docs&logoColor=white&labelColor=gray)](https://docs.google.com/document/d/1dGO9F_QgY6KRmonIJ7Fg_spIVwFiltMosjU8q06DXDY/edit?usp=sharing)
 
 # Introduccion a los datos
-
 Este conjunto de datos contiene **997 canciones** de la decada de los 80', interpretadas por **478 artistas diferentes**. Incluye variables que describen características musicales como la **duración, energía, bailabilidad, tonalidad, y popularidad, entre otras**. Estas variables permiten un análisis detallado de las canciones y su desempeño comercial, proporcionando una base sólida para **explorar patrones y relaciones** dentro del conjunto. En este análisis, se visualizan gráficamente ciertos detalles del conjunto de datos, lo que facilita la **formulación de hipótesis**. Estas hipótesis deben corroborarse mediante **pruebas estadísticas, utilizando tanto tests paramétricos como no paramétricos**, según corresponda
 
 <details>
@@ -40,41 +34,77 @@ Este conjunto de datos contiene **997 canciones** de la decada de los 80', inter
   
 </details>
 
+
+## Descarga del trabajo  
+**Manualmente:**  
+
+1. Nos dirigimos al siguiente repositorio:  
+   [https://github.com/fsaide/Trabajo-Practico-Fundamentos-de-la-Ciencias-de-Datos.git](https://github.com/fsaide/Trabajo-Practico-Fundamentos-de-la-Ciencias-de-Datos.git)  
+
+2. Apretamos en la barra de **`<> Code`** y seleccionamos la opción **Download ZIP**.  
+
+**Usando Git:**  
+
+1. Abrimos una terminal o consola.  
+
+2. Nos dirigimos al directorio donde queremos clonar el proyecto utilizando el comando:  
+   ```bash
+   cd <ruta_del_directorio>
+   ```  
+
+3. Ejecutamos el siguiente comando para clonar el repositorio:  
+   ```bash
+   git clone https://github.com/fsaide/Trabajo-Practico-Fundamentos-de-la-Ciencias-de-Datos.git
+   ```  
+
+4. Una vez completado, nos movemos al directorio del proyecto:  
+   ```bash
+   cd Trabajo-Practico-Fundamentos-de-la-Ciencias-de-Datos
+   ```  
+
 ## Ejecucion del trabajo practico
 
-<details>
-  <summary>Pasos de Ejecución</summary>
+### Requisitos
+   [![Python Version](https://img.shields.io/badge/python-3.12.5%2B-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=flat&logo=Jupyter&logoColor=white)](https://jupyter.org)
 
-  1. Abrir Visual Studio Code.
+1. **Abrir Visual Studio Code o nuestro IDE favorito.**
 
-  2. De no tener el ambiente, se deberá ejecutar en la consola el siguiente código que lo creará:
-     
+2. **Abrir la carpeta donde están los archivos.**
+
+3. **De no tener el ambiente configurado, se deberá crear uno ejecutando en la consola el siguiente código:**
+
+   - **Windows:**
      ```bash
-     python -m venv <nombre del ambiente>
+     python -m venv <nombre_del_ambiente>
+     ```
+   - **macOS/Linux:**
+     ```bash
+     python3 -m venv <nombre_del_ambiente>
      ```
 
-  3. Luego, se deberá activar el ambiente:
-     
+4. **Luego, activar el ambiente:**
+
+   - **Windows:**
      ```bash
-     <nombre del ambiente>\Scripts\activate
+     <nombre_del_ambiente>\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source <nombre_del_ambiente>/bin/activate
      ```
 
-  4. Se deberán instalar los requerimientos necesarios para poder correr el trabajo práctico:
-     
-     ```bash
-     pip install -r requirements.txt
-     ```
-     (En este caso, el archivo `txt` se llama de esta manera, si tiene otro nombre se deberá cambiarlo).
+5. **Instalar los requerimientos necesarios para poder correr el trabajo práctico:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   *(Si el archivo tiene un nombre diferente, deberá cambiarse en el comando).*
 
-  5. Una vez instalado el paquete, se deberá abrir la notebook de Jupyter:
-     
-     ```bash
-     jupyter notebook
-     ```
+6. **Abrir la notebook de Jupyter:**
+   ```bash
+   jupyter notebook
+   ```
 
-  6. ¡Eso es todo!
+7. **¡Eso es todo!**
 
   **Nota:** Todo lo que se encuentre dentro de los bloques de código se debe ejecutar en la consola de VS Code.
-
-  **Versión de Python requerida:** 3.12.5
-</details>
